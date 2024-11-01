@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bd4e4e;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.date-time-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.date-time-table td {
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+    border: none;
+    background-color: none;
+    border-radius: 5px;
+}
+
+.days-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    /* border: 1px solid #ddd; */
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: none;
+    color: rgb(31, 10, 10);
+}
